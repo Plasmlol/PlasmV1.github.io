@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Lemonmilk;
+    src: url(LEMONMILK.otf);
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+}
+
+hr{
+    height: 2px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+h1 {
+    color: blueviolet;
+    font-family: Lemonmilk;
+    font-size: 75px;
+    -webkit-text-stroke: 6px rgba(88, 27, 145, 0.692)
+
+}
+
+.p1 {
+    font-size: 25px;
+    font-weight: none;
+    color: blueviolet;
+
+}
+
+.h1-1 {
+    
+    font-family: Lemonmilk;
+    background: transparent;
+    color: blueviolet;
+    font-size: 1.75rem;
+    -webkit-text-stroke: 2px rgba(88, 27, 145, 0.692)
+}
+
+.button {
+    border-radius: 0.25rem;
+    background:transparent ;
+    text-align: center;
+    font-family: Lemonmilk;
+    cursor: pointer;
+    font-size: 50px;
+    transition-duration: 0.4s;
+    border: 2px solid blueviolet;
+}
+
+
+.button1 {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+.button1:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.nav-bar li{
+    flex-shrink: 1;
+}
+
+.img1 {
+    width: 75px;
+    height: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

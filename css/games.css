@@ -104,6 +104,7 @@ h1 {
 .h1-3 {
     display: flex;
     position: absolute;
+    vertical-align: top;
     padding: 0px;
     bottom: 600px;
     left: 1000px;
@@ -114,12 +115,12 @@ h1 {
 
 .h12 {
     display: flex;
+    vertical-align: top;
     position: absolute;
     bottom: 600px;
     left: 1000px;
     flex-direction: row;
     font-size: 50px;
-    float:inherit
 }
 
 .buttons {

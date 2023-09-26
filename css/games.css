@@ -106,7 +106,7 @@ h1 {
     position: absolute;
     padding: 0px;
     bottom: 400px;
-    left: 1310px;
+    left: 1000px;
     flex-direction: row;
     font-size: 40px;
     -webkit-text-stroke: 3px rgba(88, 27, 145, 0.692)
@@ -116,12 +116,15 @@ h1 {
     display: flex;
     position: absolute;
     bottom: 650px;
-    left: 1290px;
+    left: 1000px;
     flex-direction: row;
     font-size: 50px;
     float:inherit
 }
 
+.buttons {
+    background: transparent; border: 0px; position: relative; left: 200px; top: 650px; cursor: pointer;
+}
 
 
 

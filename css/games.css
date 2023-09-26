@@ -105,7 +105,7 @@ h1 {
     display: flex;
     position: absolute;
     padding: 0px;
-    bottom: 400px;
+    bottom: 200px;
     left: 1000px;
     flex-direction: row;
     font-size: 40px;
@@ -115,7 +115,7 @@ h1 {
 .h12 {
     display: flex;
     position: absolute;
-    bottom: 650px;
+    bottom: 200px;
     left: 1000px;
     flex-direction: row;
     font-size: 50px;

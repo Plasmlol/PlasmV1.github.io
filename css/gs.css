@@ -14,10 +14,17 @@ body {
     background-color: rgb(70, 70, 70);
 }
 .p1 {
+    position: relative;
+    left: 65px;
     font-size: 25px;
     font-weight: none;
     color: blueviolet;
 
+}
+
+main {
+    width: auto;
+    height: auto;
 }
 
 .h1-1 {
@@ -49,17 +56,28 @@ body {
 }
 
 .nav-bar {
+
     display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
+    width: 100%;
+    width: 100%;
+    gap: 1rem;
     padding: 0;
     margin: 0;
     list-style: none;
 
 }
 
-.nav-bar li{
-    flex-shrink: 1;
+.nav-bar li {
+    width: 6rem;
+
+
+}
+
+.nav-bar li button{
+    position: absolute;
+    top: 25px;
+    width: 10rem;
+    font-size: 30px;
 }
 
 .img1 {

@@ -102,12 +102,11 @@ h1 {
 }
 
 .h1-3 {
-    display: flex;
     vertical-align: top;
+    position: relative;
     padding: 0px;
     bottom: 600px;
     left: 1000px;
-    flex-direction: column;
     font-size: 40px;
     -webkit-text-stroke: 3px rgba(88, 27, 145, 0.692)
 }
@@ -115,14 +114,14 @@ h1 {
 .h12 {
     display: flex;
     position: absolute;
-    bottom: 600px;
+    bottom: 400px;
     left: 1000px;
     flex-direction: column;
     font-size: 50px;
 }
 
 .buttons {
-    background: transparent; border: 0px; position: relative; left: 200px; top: 400px; cursor: pointer;
+    background: transparent; border: 0px; position: relative; left: 200px; top: 600px; cursor: pointer;
 }
 
 

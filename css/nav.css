@@ -52,7 +52,7 @@ h1 {
     text-align: center;
     font-family: Lemonmilk;
     cursor: pointer;
-    font-size: 75px;
+    font-size: auto;
     transition-duration: 0.4s;
     border: 2px solid blueviolet;
 }
@@ -73,7 +73,7 @@ h1 {
     display: flex;
     width: 100%;
     width: 100%;
-    gap: 1rem;
+    gap: auto;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -81,21 +81,21 @@ h1 {
 }
 
 .nav-bar li {
-    width: 6rem;
+    width: auto;
 
 
 }
 
 .nav-bar li button{
     position: absolute;
-    top: 25px;
-    width: 20rem;
-    font-size: 100px;
+    top: auto;
+    width: auto;
+    font-size: auto;
 }
 
 .img1 {
     width: 75px;
-    height: 75px;
+    height: 75x;
 }
 
 

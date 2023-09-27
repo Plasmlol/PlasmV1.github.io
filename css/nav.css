@@ -44,7 +44,7 @@ h1 {
     text-align: center;
     font-family: Lemonmilk;
     cursor: pointer;
-    font-size: 50px;
+    font-size: 75px;
     transition-duration: 0.4s;
     border: 2px solid blueviolet;
 }

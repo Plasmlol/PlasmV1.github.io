@@ -105,8 +105,8 @@ h1 {
     display: flex;
     position: absolute;
     padding: 0px;
-    bottom: 400px;
-    left: 1310px;
+    bottom: 500px;
+    left: 1100px;
     flex-direction: row;
     font-size: 40px;
     -webkit-text-stroke: 3px rgba(88, 27, 145, 0.692)
@@ -115,8 +115,8 @@ h1 {
 .h12 {
     display: flex;
     position: absolute;
-    bottom: 650px;
-    left: 1290px;
+    bottom: 750px;
+    left: 1100px;
     flex-direction: row;
     font-size: 50px;
     float:inherit

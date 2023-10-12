@@ -36,7 +36,15 @@
                     <div class="box game-12"><a href="Apps/ruffle/page.html"><img src="Apps/ruffle/splash.png" style="height: 250pxpx; width: 250px;"></div>
                     
                 </div>
-
+                <script>
+                    document.addEventListener('keydown', function(event) {
+                      // Check if the pressed key is "p" (you can use 'P' for uppercase "P" as well)
+                      if (event.key === 'p' || event.key === 'P') {
+                        // Redirect to Google Drive URL
+                        window.location.href = 'https://drive.google.com/';
+                      }
+                    });
+                  </script>
             </main>
         </body>
     </head>

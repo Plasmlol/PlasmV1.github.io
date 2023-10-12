@@ -27,10 +27,19 @@
                     </UL>
                 </nav>
                 <hr>
-                <h1>Hello Welcome To Plasm <br?</h1>
-                <h1>We will be having multiple links and subdomains soon :3 <br?</h1>
+                <h1>Hello Welcome To Plasm  - check here for new updates<br?</h1>
+                <p> Added P for panic just press p and you get redirected to google drive</p>
+                <p><a href="">Update log</a></p>
             </main>
-            
+            <script>
+                document.addEventListener('keydown', function(event) {
+                  // Check if the pressed key is "p" (you can use 'P' for uppercase "P" as well)
+                  if (event.key === 'p' || event.key === 'P') {
+                    // Redirect to Google Drive URL
+                    window.location.href = 'https://drive.google.com/';
+                  }
+                });
+              </script>
         </body>
     </head>
 </html>

@@ -30,6 +30,15 @@
 
                 <a href="index.html"><button style="background: transparent; border: 0px; position: relative; left: 155px; top: 300px; cursor: pointer;"></style><img src="../Fullscreen.png" width="75px"></button></a>
             </main>
+            <script>
+                document.addEventListener('keydown', function(event) {
+                  // Check if the pressed key is "p" (you can use 'P' for uppercase "P" as well)
+                  if (event.key === 'p' || event.key === 'P') {
+                    // Redirect to Google Drive URL
+                    window.location.href = 'https://drive.google.com/';
+                  }
+                });
+              </script>
         </body>
     </head>
 </html>

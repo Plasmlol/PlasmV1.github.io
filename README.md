@@ -19,6 +19,6 @@ More Games, More proxies, more apps
 
 # Socials
 
-No socials atm but will come very soon ;)
+Join the discord 
 
 

@@ -184,6 +184,38 @@ iframe {
     height: 500px;
 }
 
+.divtext {
+    position: relative;
+    left: 1000px;
+    
+    bottom: 50px;
+    
+    width: 300px;
+    height: 300px;
+    
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: 5px solid rgb(59, 19, 95)
+}
+
+.fullscreen {
+    position: relative;
+    bottom: 200px;
+}
+
+.boxtext {
+    position: relative;
+    left: 20px;
+    bottom: 400px;
+    width: 300px;
+    height: 300px;
+    font-family: LemonMilk;
+    font-size: 22px;
+    color: rgb(243, 243, 243);
+    -webkit-text-stroke: 2px rgba(71, 22, 117, 0.692)
+    
+}
+
 
 
 

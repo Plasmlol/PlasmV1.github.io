@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Navbar</title>
+    <link rel="style" href="css/gss.css">
+
+    <style>
+        /* Initial style of the navbar */
+        #navbar {
+            background-color: transparent;
+            transition: background-color 0.3s;
+        }
+
+        /* Style when it turns black on scroll */
+        #navbar.scrolled {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav" id="navbar">
+        <div style="background-color: black;"></div>
+        <ul class="nav-bar">
+            <div style="background-color: black;"></div>
+            <img src="favicon (2).png" class="img1">
+            <h1 class="h1-1">Plasm</h1>
+            <li><a href="index.html"><button class="button button1">Home</button></a></li>
+            <li><p class="p1">---</p></li>
+            <li><a href="game.html"><button class="button button1">Games</button></a></li>
+            <li><p class="p1">---</p></li>
+            <li><a href="app.html"><button class="button button1">Apps</button></a></li>
+            <li><p class="p1">---</p></li>
+            <li><a href="Socials.html"><button class="button button1">Socials</button></a></li>
+            <div style="background-color: black;"></div>
+        </ul>
+    </nav>
+
+    <script>
+        const navbar = document.getElementById("navbar");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 0) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+</body>
+</html>

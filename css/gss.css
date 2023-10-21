@@ -108,6 +108,38 @@ main {
 .nav-bar-scrolled {
     background-color: black;
 }
+.name {
+    position: relative;
+    top: -125px;
+    right: -850px;
+    font-size: 30px;
+    font-family: Lemonmilk;
+    width: 25%;
+    height: 40px;
+    color: blueviolet;
+    -webkit-text-stroke: 2px rgba(88, 27, 145, 0.692)
+    
+}
+
+.search {
+    position: relative;
+    top: -75px;
+    right: -470px;
+    width: 25%;
+    height: 40px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 5px;
+    border: solid 3px rgb(78, 78, 78);
+    
+}
+
+.search::placeholder {
+    font-family: Lemonmilk;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    text-align: center;
+}
+
 
 
 .box {

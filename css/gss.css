@@ -186,6 +186,17 @@ main {
     display: none;
  }
 
+ .options {
+    position: relative;
+    top: -30px;
+    font-family: Lemonmilk;
+    left: 300px;
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+    border: 2px solid blueviolet;
+ }
+
 
  @media  screen and (max-width: 1400px) {
     .search {
